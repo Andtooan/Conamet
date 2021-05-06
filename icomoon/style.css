@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?sxrwef');
+  src:  url('fonts/icomoon.eot?sxrwef#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?sxrwef') format('truetype'),
+    url('fonts/icomoon.woff?sxrwef') format('woff'),
+    url('fonts/icomoon.svg?sxrwef#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weather-sunny:before {
+  content: "\e903";
+}
+.icon-cloud-sun-lightning:before {
+  content: "\e900";
+}
+.icon-cloud-wind:before {
+  content: "\e901";
+}
+.icon-cloud-rain:before {
+  content: "\e902";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}
